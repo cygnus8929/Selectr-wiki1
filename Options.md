@@ -138,16 +138,16 @@ new Selectr(mySelectBox, {
 		text: "Value 4",
 		avatar: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/avatar4.jpg"
 	}],
-	renderOption: myRenderFunction
+	renderOption: myRenderer
 });
 
-function myRenderFunction(data) {
-	var template = [
-		'<div class="my-template"><img src="', data.avatar,'"<span>',
-			 data.text,
-		'</span></div>'
-	];
-	return template.join('');
+function myRenderer(data) {
+    var template = [
+      "<div class='my-template'><img src='", data.avatar, "'><span>",
+      	data.text,
+      "</span></div>"
+    ];
+    return template.join('');
 }
 ```
 
