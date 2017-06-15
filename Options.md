@@ -114,11 +114,42 @@ function myRenderFunction(option) {
     ];
 	return template.join('');
 }
-
 ```
 
 As of `v2.2.0` you can also use this option if you define your options via the `data` option.
  
+```javascript
+new Selectr(mySelectBox, {
+	data: [{
+		value: "value-1",
+		text: "Value 1",
+		avatar: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/avatar1.jpg"
+	}, {
+		value: "value-2",
+		text: "Value 2",
+		disabled: true,
+		avatar: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/avatar2.jpg"
+	}, {
+		value: "value-3",
+		text: "Value 3",
+		avatar: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/avatar3.jpg"
+	}, {
+		value: "value-4",
+		text: "Value 4",
+		avatar: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/avatar4.jpg"
+	}],
+	renderOption: myRenderFunction
+});
+
+function myRenderFunction(data) {
+	var template = [
+		'<div class="my-template"><img src="', data.avatar,'"<span>',
+			 data.text,
+		'</span></div>'
+	];
+	return template.join('');
+}
+```
 
 ---
 
