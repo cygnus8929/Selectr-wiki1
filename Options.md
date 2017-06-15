@@ -249,11 +249,12 @@ new Selectr(mySelectBox, {
 #### Default: `25`
 #### Usage: `single`, `multi`
 
-Allows for the 'lazy-loading' of large datasets defined with the data option.
+Allows for the 'lazy-loading' of large datasets. Scrolling or navigating to the bottom of the dropdown will load the next set of items.
+
+Previously this was only possible with options supplied via the `data` options, but, as of `v2.2.0`, pagination can be applied to options already defined in the DOM.
 
 ```javascript
 new Selectr(mySelectBox, {
-	data: // large dataset,
 	pagination: 25,
 });
 ```
