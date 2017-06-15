@@ -80,6 +80,100 @@ The default seperators are the `comma` and `enter` keys.
 
 ---
 
+
+## data `[array]`
+#### Default: `undefined`
+#### Usage: `single`, `multi`
+
+Programatically define a dataset for Selectr to use.
+
+```markup
+<select id="mySelect"></select>
+```
+
+```javascript
+new Selectr(mySelectBox, {
+	data: [
+      { value: 'foo', text: 'Foo' },
+      { value: 'bar', text: 'Bar' },
+      { value: 'baz', text: 'Baz' },
+    ]
+});
+```
+
+You can also pass the selected and disabled properties, like so:
+
+```javascript
+new Selectr(mySelectBox, {
+	data: [
+        { value: 'value-1', text: 'Value 1' },
+        { value: 'value-2', text: 'Value 2', selected: true },
+        { value: 'value-3', text: 'Value 3', disabled: true },
+        { value: 'value-4', text: 'Value 4' },
+        { value: 'value-5', text: 'Value 5', selected: true },
+        { value: 'value-6', text: 'Value 6' },
+        { value: 'value-7', text: 'Value 7', disabled: true },
+        { value: 'value-8', text: 'Value 8' },
+        { value: 'value-9', text: 'Value 9' },
+        { value: 'value-10', text: 'Value 10' }
+    ],
+    multiple: true
+});
+```
+
+You can also group the data to emulate the `HTMLOptGroupElement`:
+
+```javascript
+new Selectr(mySelectBox, {
+	data: [
+          {
+              text: "Group 1",
+              children: [
+                  {
+                      value: "value-1",
+                      text: "Value 1"
+                  },
+                  {
+                      value: "value-2",
+                      text: "Value 2"
+                  },
+                  {
+                      value: "value-3",
+                      text: "Value 3"
+                  },
+                  {
+                      value: "value-4",
+                      text: "Value 4"
+                  }
+              ]
+          },
+          {
+              text: "Group 2",
+              children: [
+                  {
+                      value: "value-5",
+                      text: "Value 5"
+                  },
+                  {
+                      value: "value-6",
+                      text: "Value 6"
+                  },
+                  {
+                      value: "value-7",
+                      text: "Value 7"
+                  },
+                  {
+                      value: "value-8",
+                      text: "Value 8"
+                  }
+              ]
+          }
+    ]
+});
+```
+
+---
+
 ## renderOption `[func]`
 #### Default: `undefined`
 #### Usage: `single`, `multi`
@@ -188,99 +282,6 @@ function myRenderFunction(option) {
 	var template = ['<div class="my-template"><img src="', option.getAttribute('data-src'), '"><span>', option.textContent.trim(), '</span></div>'];
 	return template.join('');
 }
-```
-
----
-
-## data `[array]`
-#### Default: `undefined`
-#### Usage: `single`, `multi`
-
-Programatically define a dataset for Selectr to use.
-
-```markup
-<select id="mySelect"></select>
-```
-
-```javascript
-new Selectr(mySelectBox, {
-	data: [
-      { value: 'foo', text: 'Foo' },
-      { value: 'bar', text: 'Bar' },
-      { value: 'baz', text: 'Baz' },
-    ]
-});
-```
-
-You can also pass the selected and disabled properties, like so:
-
-```javascript
-new Selectr(mySelectBox, {
-	data: [
-        { value: 'value-1', text: 'Value 1' },
-        { value: 'value-2', text: 'Value 2', selected: true },
-        { value: 'value-3', text: 'Value 3', disabled: true },
-        { value: 'value-4', text: 'Value 4' },
-        { value: 'value-5', text: 'Value 5', selected: true },
-        { value: 'value-6', text: 'Value 6' },
-        { value: 'value-7', text: 'Value 7', disabled: true },
-        { value: 'value-8', text: 'Value 8' },
-        { value: 'value-9', text: 'Value 9' },
-        { value: 'value-10', text: 'Value 10' }
-    ],
-    multiple: true
-});
-```
-
-You can also group the data to emulate the `HTMLOptGroupElement`:
-
-```javascript
-new Selectr(mySelectBox, {
-	data: [
-          {
-              text: "Group 1",
-              children: [
-                  {
-                      value: "value-1",
-                      text: "Value 1"
-                  },
-                  {
-                      value: "value-2",
-                      text: "Value 2"
-                  },
-                  {
-                      value: "value-3",
-                      text: "Value 3"
-                  },
-                  {
-                      value: "value-4",
-                      text: "Value 4"
-                  }
-              ]
-          },
-          {
-              text: "Group 2",
-              children: [
-                  {
-                      value: "value-5",
-                      text: "Value 5"
-                  },
-                  {
-                      value: "value-6",
-                      text: "Value 6"
-                  },
-                  {
-                      value: "value-7",
-                      text: "Value 7"
-                  },
-                  {
-                      value: "value-8",
-                      text: "Value 8"
-                  }
-              ]
-          }
-    ]
-});
 ```
 
 ---
