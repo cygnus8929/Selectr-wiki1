@@ -12,5 +12,8 @@ Features:
 * Tagging support
 * Custom events
 * Custom styling
+* Native select for mobile devices
+* Custom datasets
+* Dynamically add options
 * Much more...
 
