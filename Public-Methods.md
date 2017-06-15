@@ -65,28 +65,35 @@ selector.search('foo');
 
 ---
 
-## addOption(`data`) <small>(v2.1.0 and above)</small>
+## addOption(`data`, `checkDuplicate`) <small>(v2.1.0 and above)</small>
 #### Usage: `single, multi`
 
-Add a new option. The function accepts an object as it's only parameter. This object must contain the defaults properties `value` and `text`. It will return the newly created `HTMLOptionElement` if required
+Add a new option. The function accepts an object or array of objects as it's first parameter. This objects can contain any properties, but must contain the default `value` and `text` properties.
 
+### Add a single option
 ```javascript
 selector.addOption({
     value: "some-value",
-    text: "Some Text",
+    text: "Some Text"
 });
 ```
 
-You can also pass any DOM property or HTML attribute that you require.
-
+### Add multiple options
 ```javascript
-selector.addOption({
-    value: "some-value-7",
-    text: "Some Text 7",
-    id: "some-id-7",
-    "data-id": "7"
-    ...
-});
+selector.addOption([
+    {
+        value: "some-value-1",
+        text: "Some Text 1"
+    },
+    {
+        value: "some-value-2",
+        text: "Some Text 2"
+    },
+    {
+        value: "some-value-3",
+        text: "Some Text 4"
+    }
+]);
 ```
 
 ---
