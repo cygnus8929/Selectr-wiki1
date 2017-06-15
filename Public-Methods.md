@@ -3,7 +3,7 @@ Selectr comes with a bunch of public methods for you to access Selectr programma
 ```javascript
 var selector = new Selectr(selectBox);
 
-selector.functionName();
+selector.methodName();
 ```
 
 ---
