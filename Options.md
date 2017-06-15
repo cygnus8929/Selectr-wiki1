@@ -107,16 +107,16 @@ new Selectr(mySelectBox, {
 });
 
 function myRenderFunction(option) {
-	var template = [
-      '<div class="my-template"><img src="', option.getAttribute('data-src'),'"<span>',
-      option.textContent.trim(),
-      '</span></div>'
+    var template = [
+      "<div class='my-template'><img src='", option.dataset.src, "'><span>",
+    		option.textContent,
+      "</span></div>"
     ];
-	return template.join('');
+    return template.join('');
 }
 ```
 
-As of `v2.2.0` you can also use this option if you define your options via the `data` option.
+As of `v2.2.0` you can also use this option if you define your options via the `data` option:
  
 ```javascript
 new Selectr(mySelectBox, {
@@ -138,10 +138,13 @@ new Selectr(mySelectBox, {
 		text: "Value 4",
 		avatar: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/avatar4.jpg"
 	}],
-	renderOption: myRenderer
+	renderOption: myDataRenderFunction
 });
+```
 
-function myRenderer(data) {
+You function should then utilise the first parameter to access the object:
+```javascript
+function myDataRenderFunction(data) {
     var template = [
       "<div class='my-template'><img src='", data.avatar, "'><span>",
       	data.text,
