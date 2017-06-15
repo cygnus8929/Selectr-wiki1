@@ -35,6 +35,16 @@ selector.on('selectr.deselect', function(option) {
 });
 ```
 
+
+# `selectr.change`
+Fires when an option's state is changed. The `option` argument contains the HTMLSelectElement that was deselected.
+
+```javascript
+selector.on('selectr.change', function(option) {
+	
+});
+```
+
 # `selectr.open`
 Fires when the dropdown is opened.
 
