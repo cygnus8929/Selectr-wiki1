@@ -37,3 +37,14 @@
 * [disable](https://github.com/Mobius1/Selectr/wiki/Public-Methods#disable)
 * [enable](https://github.com/Mobius1/Selectr/wiki/Public-Methods#enable)
 * [render](https://github.com/Mobius1/Selectr/wiki/Public-Methods#renderoptions)
+
+## Events
+* [selectr.init](https://github.com/Mobius1/Selectr/wiki/Events#selectrinit)
+* [selectr.select](https://github.com/Mobius1/Selectr/wiki/Events#selectrselect)
+* [selectr.deselect](https://github.com/Mobius1/Selectr/wiki/Events#selectrdeselect)
+* [selectr.change](https://github.com/Mobius1/Selectr/wiki/Events#selectrchange)
+* [selectr.open](https://github.com/Mobius1/Selectr/wiki/Events#selectropen)
+* [selectr.close](https://github.com/Mobius1/Selectr/wiki/Events#selectrclose)
+* [selectr.clear](https://github.com/Mobius1/Selectr/wiki/Events#selectrclear)
+* [selectr.reset](https://github.com/Mobius1/Selectr/wiki/Events#selectrreset)
+* [selectr.paginate](https://github.com/Mobius1/Selectr/wiki/Events#selectrpaginate)
