@@ -222,7 +222,7 @@ Render the instance. This can be used to re-render the instance if it has been d
 selector.render();
 ```
 
-You can pass an optional `object` of [options](http://mobius.ovh/docs/selectr/pages/options) as the first parameter if required.
+You can pass an optional `object` of [options](https://github.com/Mobius1/Selectr/wiki/Options) as the first parameter if required.
 
 ```javascript
 selector.render({
