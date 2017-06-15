@@ -302,6 +302,24 @@ new Selectr(mySelectBox, {
 
 ---
 
+## nativeDropdown `[bool]` <small>(v2.1.0 and above)</small>
+#### Default: `false`
+#### Usage: `single`
+
+Allows the use of the native dropdown instead of Selectr's custom dropdown list.
+
+> Note that this option defaults to `true` on mobile devices.
+
+---
+
+## closeOnScroll `[bool]`
+#### Default: `false`
+#### Usage: `single`, `multi`
+
+When set to `true` the dropsdown will close during scrolling.
+
+---
+
 ## sortSelected `[mixed]`
 #### Default: `false`
 #### Usage: `multi`
