@@ -15,6 +15,12 @@
 * [tagSeperators](https://github.com/Mobius1/Selectr/wiki/Options#tagseperators)
 * [data](https://github.com/Mobius1/Selectr/wiki/Options#data)
 * [renderOption](https://github.com/Mobius1/Selectr/wiki/Options#renderoption)
+* [renderSelection](https://github.com/Mobius1/Selectr/wiki/Options#renderselection)
+* [pagination](https://github.com/Mobius1/Selectr/wiki/Options#pagination)
+* [nativeDropdown](https://github.com/Mobius1/Selectr/wiki/Options#nativedropdown)
+* [closeOnScroll](https://github.com/Mobius1/Selectr/wiki/Options#closeonscroll)
+* [sortSelected](https://github.com/Mobius1/Selectr/wiki/Options#sortselected)
+* [customClass](https://github.com/Mobius1/Selectr/wiki/Options#customclass)
 
 ## Public Methods
 * [setValue](https://github.com/Mobius1/Selectr/wiki/Public-Methods#setvaluevalue)
@@ -31,9 +37,3 @@
 * [disable](https://github.com/Mobius1/Selectr/wiki/Public-Methods#disable)
 * [enable](https://github.com/Mobius1/Selectr/wiki/Public-Methods#enable)
 * [render](https://github.com/Mobius1/Selectr/wiki/Public-Methods#renderoptions)
-* [renderSelection](https://github.com/Mobius1/Selectr/wiki/Options#renderselection)
-* [pagination](https://github.com/Mobius1/Selectr/wiki/Options#pagination)
-* [nativeDropdown](https://github.com/Mobius1/Selectr/wiki/Options#nativedropdown)
-* [closeOnScroll](https://github.com/Mobius1/Selectr/wiki/Options#closeonscroll)
-* [sortSelected](https://github.com/Mobius1/Selectr/wiki/Options#sortselected)
-* [customClass](https://github.com/Mobius1/Selectr/wiki/Options#customclass)
