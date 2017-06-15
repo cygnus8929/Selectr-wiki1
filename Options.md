@@ -1,9 +1,11 @@
-## multiple `[bool]`
+## multiple
+#### Type: `{Boolean}`
 Use to programmatically set the select box to a multi select box.
 
 ---
 
-## searchable `[bool]`
+## searchable
+#### Type: `{Boolean}`
 #### Default: `true`
 #### Usage: `single`, `multi`
 
@@ -13,7 +15,8 @@ Searches are case-insensitive and are matched from the first character of the op
 
 ---
 
-## allowDeselect `[string]`
+## allowDeselect
+#### Type: `{String}`
 #### Default: `false`
 #### Usage: `single`
 
@@ -21,7 +24,8 @@ Allow deselecting of a selected option in a `select-one` select box.
 
 ---
 
-## clearable `[bool]`
+## clearable
+#### Type: `{Boolean}`
 #### Default: `false`
 #### Usage: `single`, `multi`
 
@@ -31,7 +35,8 @@ Will not work on `select-one` select boxes with the `allowDeselect` option disab
 
 ---
 
-## width `[int, string]`
+## width
+#### Type: `{Integer}` or `{String}`
 #### Default: `auto`
 #### Usage: `single`, `multi`
 
@@ -39,7 +44,8 @@ Programatically set a custom width of the select box. The default setting `auto`
 
 ---
 
-## placeholder `[string]`
+## placeholder
+#### Type: `{String}`
 #### Default: `null`
 #### Usage: `single`, `multi`
 
@@ -49,7 +55,8 @@ This will override the HTML placeholder attribute if one exists.
 
 ---
 
-## maxSelections `[int]`
+## maxSelections
+#### Type: `{Integer}`
 #### Default: `null`
 #### Usage: `multi`
 
@@ -57,7 +64,8 @@ Limit the number of selections a user can make. Multi-select only.
 
 ---
 
-## taggable `[bool]`
+## taggable
+#### Type: `{Boolean}`
 #### Default: `false`
 #### Usage: `multi`
 
@@ -65,7 +73,8 @@ Enable the tagging feature.
 
 ---
 
-## tagSeperators `[array]`
+## tagSeperators
+#### Type: `{Array}`
 
 Define the seperators used when using the `taggable` option. Pass an array of seperators like so:
 
@@ -81,7 +90,8 @@ The default seperators are the `comma` and `enter` keys.
 ---
 
 
-## data `[array]`
+## data
+#### Type: `{Array}`
 #### Default: `undefined`
 #### Usage: `single`, `multi`
 
@@ -174,7 +184,8 @@ new Selectr(mySelectBox, {
 
 ---
 
-## renderOption `[func]`
+## renderOption
+#### Type: `{Function}`
 #### Default: `undefined`
 #### Usage: `single`, `multi`
 
@@ -211,7 +222,7 @@ function myRenderFunction(option) {
 ```
 
 As of `v2.2.0` you can also use this option if you define your options via the `data` option:
- 
+
 ```javascript
 new Selectr(mySelectBox, {
 	data: [{
@@ -250,7 +261,8 @@ function myDataRenderFunction(data) {
 
 ---
 
-## renderSelection `[func]`
+## renderSelection
+#### Type: `{Function}`
 #### Default: `null`
 #### Usage: `single`, `multi`
 
@@ -286,7 +298,8 @@ function myRenderFunction(option) {
 
 ---
 
-## pagination `[int]`
+## pagination
+#### Type: `{Integer}`
 #### Default: `25`
 #### Usage: `single`, `multi`
 
@@ -302,7 +315,8 @@ new Selectr(mySelectBox, {
 
 ---
 
-## nativeDropdown `[bool]`
+## nativeDropdown
+#### Type: `{Boolean}`
 #### Default: `false`
 #### Usage: `single`
 
@@ -312,7 +326,8 @@ Allows the use of the native dropdown instead of Selectr's custom dropdown list.
 
 ---
 
-## closeOnScroll `[bool]`
+## closeOnScroll
+#### Type: `{Boolean}`
 #### Default: `false`
 #### Usage: `single`, `multi`
 
@@ -320,7 +335,8 @@ When set to `true` the dropsdown will close during scrolling.
 
 ---
 
-## sortSelected `[mixed]`
+## sortSelected
+#### Type: `{Mixed}`
 #### Default: `false`
 #### Usage: `multi`
 
@@ -330,7 +346,8 @@ If you want the tags ordered by their text rather than their values, you can set
 
 ---
 
-## customClass `[string]`
+## customClass
+#### Type: `{String}`
 #### Default: `undefined`
 #### Usage: `single, multi`
 
