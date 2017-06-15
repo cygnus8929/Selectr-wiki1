@@ -57,7 +57,7 @@ Limit the number of selections a user can make. Multi-select only.
 
 ---
 
-## taggable `[bool]` <small>(v2.1.0 and above)</small>
+## taggable `[bool]`
 #### Default: `false`
 #### Usage: `multi`
 
@@ -65,7 +65,7 @@ Enable the tagging feature.
 
 ---
 
-## tagSeperators `[array]` <small>(v2.1.0 and above)</small>
+## tagSeperators `[array]`
 
 Define the seperators used when using the `taggable` option. Pass an array of seperators like so:
 
@@ -302,7 +302,7 @@ new Selectr(mySelectBox, {
 
 ---
 
-## nativeDropdown `[bool]` <small>(v2.1.0 and above)</small>
+## nativeDropdown `[bool]`
 #### Default: `false`
 #### Usage: `single`
 
