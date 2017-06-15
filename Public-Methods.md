@@ -65,7 +65,7 @@ selector.search('foo');
 
 ---
 
-## addOption(`data`) <small>(v2.1.0 and above)</small>
+## addOption(`data`)
 #### Usage: `single, multi`
 
 Add a new option. The function accepts an object or array of objects as it's first parameter. This objects can contain any properties, but must contain the default `value` and `text` properties.
@@ -98,7 +98,7 @@ selector.addOption([
 
 ---
 
-## serialize(`toJson`) <small>(v2.1.0 and above)</small>
+## serialize(`toJson`)
 #### Usage: `single, multi`
 
 Returns a serialized object of all options. Note that both spellings of the function are accepted, i.e. `serialize` or `serialise`
