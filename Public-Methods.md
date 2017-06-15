@@ -68,7 +68,7 @@ selector.search('foo');
 ## addOption(`data`)
 #### Usage: `single, multi`
 
-Add a new option. The function accepts an object or array of objects as it's first parameter. This objects can contain any properties, but must contain the default `value` and `text` properties.
+Dynamically add a new options. The function accepts an object or array of objects as it's first parameter. These objects can contain any properties, but must contain the default `value` and `text` properties.
 
 ### Add a single option
 ```javascript
