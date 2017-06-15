@@ -81,7 +81,7 @@ The default seperators are the `comma` and `enter` keys.
 ---
 
 ## renderOption `[func]`
-#### Default: `null`
+#### Default: `undefined`
 #### Usage: `single`, `multi`
 
 Allows custom formating of the available options.
@@ -114,7 +114,11 @@ function myRenderFunction(option) {
     ];
 	return template.join('');
 }
+
 ```
+
+As of `v2.2.0` you can also use this option if you define your options via the `data` option.
+ 
 
 ---
 
