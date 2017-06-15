@@ -142,7 +142,7 @@ new Selectr(mySelectBox, {
 });
 ```
 
-You function should then utilise the first parameter to access the object:
+Your function should then utilise the first parameter to access the object:
 ```javascript
 function myDataRenderFunction(data) {
     var template = [
@@ -163,6 +163,8 @@ function myDataRenderFunction(data) {
 Similar to renderOptions, this allows custom formating of the selected option or tag.
 
 The function takes the individual HTMLOptionElement as the first parameter and should return the formatted template required.
+
+As of `v2.2.0` you can also use this option if you define your options via the `data` option. (See [`renderOption`](#renderoption-func))
 
 ```html
 <select id="mySelectBox">
