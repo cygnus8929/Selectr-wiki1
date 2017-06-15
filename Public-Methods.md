@@ -164,6 +164,8 @@ selector.clear();
 
 Reset the instance back to it's initial state. Any selected options defined by the `selectedValue` option or in the object passed with the `data` option will be selected again.
 
+This method is called automatically when reseting the parent form.
+
 ```javascript
 selector.reset();
 ```
