@@ -37,7 +37,7 @@ selector.on('selectr.deselect', function(option) {
 
 
 # `selectr.change`
-Fires when an option's state is changed. The `option` argument contains the HTMLSelectElement that was deselected.
+Fires when an option's state is changed. The `option` argument contains the HTMLSelectElement that was changed.
 
 ```javascript
 selector.on('selectr.change', function(option) {
