@@ -1,10 +1,6 @@
-Sometimes you require a select box to be empty and load the options dynamically. This is simple with Selectr.
+Sometimes you require a select box's options be loaded dynamically rather than defined in the markup. This is simple with Selectr.
 
 First, initialise Selectr as normal on your empty select box:
-
-```markup
-<select id="mySelectBox"></select>
-```
 
 ```javascript
 var selector = new Selectr("#mySelectBox");
