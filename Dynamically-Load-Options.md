@@ -17,10 +17,10 @@ function fetchData() {
   request.onload = function() {
 
     if (request.status >= 200 && request.status < 400) {
-      // Parse the response JSON to and object
+      // Parse the response JSON to an object
       var data = JSON.parse(request.responseText);
 
-      // Pass the oject to the 'addOption' methed
+      // Pass the object to the 'addOption' methed
       selector.addOption(data);
     }
   };
