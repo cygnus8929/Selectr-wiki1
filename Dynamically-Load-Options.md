@@ -6,7 +6,7 @@ First, initialise Selectr as normal on your select box (can be empty):
 var selector = new Selectr("#mySelectBox");
 ```
 
-You can then utilise the `addOption` method to load options in to the container:
+You can then utilise the `[addOption](https://github.com/Mobius1/Selectr/wiki/Public-Methods#addoptiondata)` method to load options in to the container:
 
 ```javascript
 function fetchData() {
