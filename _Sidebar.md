@@ -3,6 +3,9 @@
 * [Manual](https://github.com/Mobius1/Selectr/wiki/Getting-Started#manual-installation)
 * [Initialise](https://github.com/Mobius1/Selectr/wiki/Getting-Started#initialisation)
 
+### Advanced Usage
+* [Load Options Dynamically]()
+
 ## Options
 * [multiple](https://github.com/Mobius1/Selectr/wiki/Options#multiple)
 * [searchable](https://github.com/Mobius1/Selectr/wiki/Options#searchable)
