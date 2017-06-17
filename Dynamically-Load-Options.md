@@ -6,7 +6,7 @@ First, initialise Selectr as normal on your select box (can be empty):
 var selector = new Selectr("#mySelectBox");
 ```
 
-You can then utilise the `[addOption](https://github.com/Mobius1/Selectr/wiki/Public-Methods#addoptiondata)` method to load options in to the container:
+You can then utilise the [`addOption`](https://github.com/Mobius1/Selectr/wiki/Public-Methods#addoptiondata) method to load options in to the container:
 
 ```javascript
 function fetchData() {
@@ -38,3 +38,5 @@ selector.on("selectr.init", function() {
 ```
 
 If you have `pagination` active then Selectr will load all options into it's cache, but will only insert the maximum amount required into the dropdown.
+
+Don't forget to check the wiki for the [`addOption`](https://github.com/Mobius1/Selectr/wiki/Public-Methods#addoptiondata) method's requirements.
