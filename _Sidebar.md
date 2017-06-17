@@ -4,7 +4,7 @@
 * [Initialise](https://github.com/Mobius1/Selectr/wiki/Getting-Started#initialisation)
 
 ### Advanced Usage
-* [Load Options Dynamically]()
+* [Dynamically Load Options]()
 
 ## Options
 * [multiple](https://github.com/Mobius1/Selectr/wiki/Options#multiple)
