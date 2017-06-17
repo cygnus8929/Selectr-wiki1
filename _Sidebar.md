@@ -37,10 +37,8 @@
 * [toggle](https://github.com/Mobius1/Selectr/wiki/Public-Methods#toggle)
 * [clear](https://github.com/Mobius1/Selectr/wiki/Public-Methods#clear)
 * [reset](https://github.com/Mobius1/Selectr/wiki/Public-Methods#reset)
-* [destroy](https://github.com/Mobius1/Selectr/wiki/Public-Methods#destroy)
 * [disable](https://github.com/Mobius1/Selectr/wiki/Public-Methods#disable)
 * [enable](https://github.com/Mobius1/Selectr/wiki/Public-Methods#enable)
-* [render](https://github.com/Mobius1/Selectr/wiki/Public-Methods#renderoptions)
 
 ## Events
 * [selectr.init](https://github.com/Mobius1/Selectr/wiki/Events#selectrinit)
