@@ -89,6 +89,19 @@ The default seperators are the `comma` and `enter` keys.
 
 ---
 
+## tagPlaceholder
+#### Type: `{String}`
+
+Set the placeholder of the tag input element.
+
+```javascript
+var selector = new Selectr("#mySelect", {
+    taggable: true,
+    tagPlaceholder: "Enter or a select a tag. Go ahead, do it!"
+});
+```
+
+---
 
 ## data
 #### Type: `{Array}`
