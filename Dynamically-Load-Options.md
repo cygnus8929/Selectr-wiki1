@@ -34,3 +34,5 @@ selector.on("selectr.init", function() {
   fetchData();
 });
 ```
+
+If you have `pagination` active then Selectr will load all options into it's cache, but will only insert the maximum amount required into the dropdown.
