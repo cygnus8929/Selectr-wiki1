@@ -1,4 +1,4 @@
-Initialise Selctr as normal:
+Initialise Selectr as normal:
 
 ```javascript
 var selector = new Selectr("select");
