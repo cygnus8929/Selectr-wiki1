@@ -8,7 +8,7 @@ selector.methodName();
 
 ---
 
-## setValue(`value`)
+### setValue(`value`)
 #### Usage: `single`, `multi`
 
 Set the selected value(s) of the select box. The `value` parameter accepts either a string or an array of strings for multi selects.
