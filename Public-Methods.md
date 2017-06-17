@@ -25,7 +25,7 @@ NOTE: if you pass a value that is already selected it will be deselected.
 
 ---
 
-## getValue(`toObject, toJson`)
+### getValue(`toObject, toJson`)
 #### Usage: `single`, `multi`
 
 Get the current selected value(s) of the select box.
@@ -53,7 +53,7 @@ selector.getValue(true, true); // "{"values":[{"value":"value-1","text":"Value 1
 
 ---
 
-## search(`query`)
+### search(`query`)
 #### Usage: `single`, `multi`
 
 Search the available options for a string. The `query` parameter accepts a string and returns an `object` of matched options.
@@ -65,7 +65,7 @@ selector.search('foo');
 
 ---
 
-## addOption(`data`)
+### addOption(`data`)
 #### Usage: `single, multi`
 
 Dynamically add a new options. The function accepts an object or array of objects as it's first parameter. These objects can contain any properties, but must contain the default `value` and `text` properties.
@@ -98,7 +98,7 @@ selector.addOption([
 
 ---
 
-## serialize(`toJson`)
+### serialize(`toJson`)
 #### Usage: `single, multi`
 
 Returns a serialized object of all options. Note that both spellings of the function are accepted, i.e. `serialize` or `serialise`
@@ -115,7 +115,7 @@ selector.serialize(true);
 
 ---
 
-## open()
+### open()
 #### Usage: `single`, `multi`
 
 Opens the dropdown.
@@ -126,7 +126,7 @@ selector.open();
 
 ---
 
-## close()
+### close()
 #### Usage: `single`, `multi`
 
 Closes the dropdown.
@@ -137,7 +137,7 @@ selector.close();
 
 ---
 
-## toggle()
+### toggle()
 #### Usage: `single`, `multi`
 
 Toggle the dropdown.
@@ -148,7 +148,7 @@ selector.toggle();
 
 ---
 
-## clear()
+### clear()
 #### Usage: `single`, `multi`
 
 Clear all selected options.
@@ -159,7 +159,7 @@ selector.clear();
 
 ---
 
-## reset()
+### reset()
 #### Usage: `single`, `multi`
 
 Reset the instance back to it's initial state. Any selected options defined by the `selectedValue` option or in the object passed with the `data` option will be selected again.
@@ -172,18 +172,7 @@ selector.reset();
 
 ---
 
-## destroy()
-#### Usage: `single`, `multi`
-
-Destroy the current instance.
-
-```javascript
-selector.destroy();
-```
-
----
-
-## disable()
+### disable()
 #### Usage: `single`, `multi`
 
 Disable the current instance. The element will be visible, but inaccessable.
@@ -202,7 +191,7 @@ selector.disable(true); // the instance's value(s) will be submitted
 
 ---
 
-## enable()
+### enable()
 #### Usage: `single`, `multi`
 
 Enable the current instance.
@@ -212,22 +201,3 @@ selector.enable();
 ```
 
 ---
-
-## render(`options`)
-#### Usage: `single`, `multi`
-
-Render the instance. This can be used to re-render the instance if it has been destroyed.
-
-```javascript
-selector.render();
-```
-
-You can pass an optional `object` of [options](https://github.com/Mobius1/Selectr/wiki/Options) as the first parameter if required.
-
-```javascript
-selector.render({
-    multiple: true,
-    clearable: true,
-    ...
-});
-```
