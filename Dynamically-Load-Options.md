@@ -29,7 +29,7 @@ function fetchData() {
 }
 ```
 
-You call the function whenever required, or when Selectr has loaded:
+You can then call the function whenever required, for example, when Selectr has loaded:
 ```javascript
 // Listen for the init event and load the data
 selector.on("selectr.init", function() {
