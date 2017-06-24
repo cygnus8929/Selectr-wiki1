@@ -72,8 +72,6 @@ Dynamically add a new options. The function accepts an object or array of object
 
 The `duplicateCheck` argument is a boolean and when set to `true` will check to see if any of the new values passed in the first argument already exist. If they do the method will skip over them.
 
->NOTE: Prior to `v2.3.4`, this method was was called `addOption`. Make sure you update your code to reflect the API changes if you're using `v2.3.4` or above.
-
 ### Add a single option
 ```javascript
 selector.addOption({
@@ -100,7 +98,9 @@ selector.addOption([
 ]);
 ```
 
->NOTE that if you have a fairly large dataset present (100s or 1000s) and are adding another fairly larger dataset, then calling this method with the `checkDuplicate` parameter can be CPU intensive.
+>NOTE: Prior to `v2.3.4`, this method was called `addOption`. Make sure you update your code to reflect the API changes if you're using `v2.3.4` or above.
+
+>NOTE: If you have a fairly large dataset present (100s or 1000s) and are adding another fairly larger dataset, then calling this method with the `checkDuplicate` parameter can be CPU intensive.
 
 ---
 
