@@ -7,6 +7,7 @@
 * [Dynamically Load Options](https://github.com/Mobius1/Selectr/wiki/Dynamically-Load-Options)
 
 ## Options
+* [defaultSelected](https://github.com/Mobius1/Selectr/wiki/Options#defaultselected)
 * [multiple](https://github.com/Mobius1/Selectr/wiki/Options#multiple)
 * [searchable](https://github.com/Mobius1/Selectr/wiki/Options#searchable)
 * [clearable](https://github.com/Mobius1/Selectr/wiki/Options#clearable)
