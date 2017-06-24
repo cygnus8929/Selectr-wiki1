@@ -202,9 +202,9 @@ new Selectr(mySelectBox, {
 #### Default: `undefined`
 #### Usage: `single`, `multi`
 
-Allows custom formating of the available options.
+Allows custom formating of the available options in the dropdown.
 
-The function takes the individual HTMLOptionElement as the first parameter and should return the formatted template required.
+The function takes the individual `HTMLOptionElement` as the first argument and should return a `string`.
 
 ```html
 <select id="mySelectBox">
@@ -279,9 +279,9 @@ function myDataRenderFunction(data) {
 #### Default: `null`
 #### Usage: `single`, `multi`
 
-Similar to renderOptions, this allows custom formating of the selected option or tag.
+Similar to the `renderOption` option, this allows custom formating of the selected option or tag.
 
-The function takes the individual HTMLOptionElement as the first parameter and should return the formatted template required.
+The function takes the individual `HTMLOptionElement` as the first parameter and should return a `string`.
 
 As of `v2.2.0` you can also use this option if you define your options via the `data` option. (See [`renderOption`](#renderoption-func))
 
@@ -316,9 +316,9 @@ function myRenderFunction(option) {
 #### Default: `25`
 #### Usage: `single`, `multi`
 
-Allows for the 'lazy-loading' of large datasets. Scrolling or navigating to the bottom of the dropdown will load the next set of items.
+Allows for the 'infinite-scrolling' of large datasets. Scrolling or navigating to the bottom of the dropdown will load the next set of items.
 
-Previously this was only possible with options supplied via the `data` options, but, as of `v2.2.0`, pagination can be applied to options already defined in the DOM.
+Previously this was only possible with options supplied via the `data` option, but, as of `v2.2.0`, pagination can be applied to options already defined in the DOM.
 
 ```javascript
 new Selectr(mySelectBox, {
@@ -344,7 +344,7 @@ Allows the use of the native dropdown instead of Selectr's custom dropdown list.
 #### Default: `false`
 #### Usage: `single`, `multi`
 
-When set to `true` the dropsdown will close during scrolling.
+When set to `true` the dropdown will close during scrolling and/or window resizing.
 
 ---
 
