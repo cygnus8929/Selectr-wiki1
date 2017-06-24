@@ -1,6 +1,16 @@
+## defaultSelected
+#### Type: `{Boolean}`
+#### Default: `true`
+
+When set to `true` and no other options are selected, Selectr will emulate the default browser behaviour of selecting the first option in the list.
+
+---
+
 ## multiple
 #### Type: `{Boolean}`
-Use to programmatically set the select box to a multi select box.
+#### Default: `false`
+
+Use to convert a `select-one` type element to a `select-multiple` type element.
 
 ---
 
