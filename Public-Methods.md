@@ -109,7 +109,7 @@ selector.addOption([
 
 Remove an option or options.
 
-Options can be removed via their indexes or their values. To remove an option via it's index you must pass an `integer` and to remove an option via it's value you must pass a string. The `data` parameter can be either an `integer`, a `string` or an `array` of strings or integers.
+Options can be removed via their indexes or their values. To remove an option via it's index you must pass an `integer` and to remove an option via it's value you must pass a string. The `data` parameter can be either an `integer`, a `string` or an `array` of strings / integers.
 
 #### Examples
 
@@ -123,7 +123,7 @@ selector.remove("value-3");
 // Remove the first, third and fifth option via their indexes
 selector.remove([0,2,4]);
 
-// Remove multiple options via both indexed and values
+// Remove multiple options via both indexes and values
 selector.remove([0, "value-2", "value-4", 8, 12]);
 
 ```
