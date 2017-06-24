@@ -98,7 +98,7 @@ selector.addOption([
 ]);
 ```
 
-> NOTE that if you have a fairly large dataset present (100s or 1000s) and are adding another fairly larger dataset, then calling this method with the `checkDuplicate` parameter can be CPU intensive.
+>NOTE that if you have a fairly large dataset present (100s or 1000s) and are adding another fairly larger dataset, then calling this method with the `checkDuplicate` parameter can be CPU intensive.
 
 ---
 
