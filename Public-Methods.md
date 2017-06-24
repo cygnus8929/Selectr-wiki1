@@ -65,12 +65,14 @@ selector.search('foo');
 
 ---
 
-### addOption(`data`, `duplicateCheck`)
+### add(`data`, `duplicateCheck`)
 #### Usage: `single, multi`
 
 Dynamically add a new options. The function accepts an object or array of objects as it's first parameter. These objects can contain any properties, but must contain the default `value` and `text` properties.
 
 The `duplicateCheck` argument is a boolean and when set to `true` will check to see if any of the new values passed in the first argument already exist. If they do the method will skip over them.
+
+>NOTE: Prior to `v2.3.4`, this method was was called `addOption`. Make sure you update your code to reflect the API changes if you're using `v2.3.4` or above.
 
 ### Add a single option
 ```javascript
@@ -99,6 +101,39 @@ selector.addOption([
 ```
 
 >NOTE that if you have a fairly large dataset present (100s or 1000s) and are adding another fairly larger dataset, then calling this method with the `checkDuplicate` parameter can be CPU intensive.
+
+---
+
+### remove(`data`)
+#### Usage: `single, multi`
+
+Remove an option or options.
+
+Options can be removed via their indexes or their values. To remove an option via it's index you must pass an `integer` and to remove an option via it's value you must pass a string. The `data` parameter can be either an `integer`, a `string` or an `array` of strings or integers.
+
+#### Examples
+
+```javascript
+// Remove the first option via it's index
+selector.remove(0);
+
+// Remove an option via it's value
+selector.remove("value-3");
+
+// Remove the first, third and fifth option via their indexes
+selector.remove([0,2,4]);
+
+// Remove multiple options via both indexed and values
+selector.remove([0, "value-2", "value-4", 8, 12]);
+
+```
+
+---
+
+### removeAll()
+#### Usage: `single, multi`
+
+Remove all options.
 
 ---
 
