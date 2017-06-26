@@ -130,7 +130,7 @@ selector.remove([0, "value-2", "value-4", 8, 12]);
 
 Be careful passing numbers as the wrong option could be removed. If your values are numbers you're removing via a value than make sure to pass a `string` rather than an `integer`:
 
-```markup
+```html
 <select>
     <option value="1">Value 1</option>
     <option value="2">Value 2</option>
