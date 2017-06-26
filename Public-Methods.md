@@ -128,6 +128,23 @@ selector.remove([0, "value-2", "value-4", 8, 12]);
 
 ```
 
+Be careful passing numbers as the wrong option could be removed. If your values are numbers you're removing via a value than make sure to pass a `string` rather than an `integer`:
+
+```markup
+<select>
+    <option value="1">Value 1</option>
+    <option value="2">Value 2</option>
+    <option value="3">Value 3</option>
+    <option value="4">Value 4</option>
+</select>
+
+// Removes the third option instead of the secons
+selector.remove(2);
+
+// Correctly removes the second option
+selector.remove("2");
+```
+
 ---
 
 ### removeAll()
