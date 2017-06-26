@@ -140,7 +140,7 @@ Be careful passing numbers as the wrong option could be removed. If your values 
 ```
 
 ```javascript
-// Removes the third option instead of the secons
+// Removes the third option instead of the second
 selector.remove(2);
 
 // Correctly removes the second option
