@@ -100,7 +100,7 @@ selector.addOption([
 
 >NOTE: Prior to `v2.3.4`, this method was called `addOption`. Make sure you update your code to reflect the API changes if you're using `v2.3.4` or above.
 
->NOTE: If you have a fairly large dataset present (100s or 1000s) and are adding another fairly larger dataset, then calling this method with the `checkDuplicate` parameter can be CPU intensive.
+>NOTE: If you have a fairly large dataset present (100s or 1000s) and are adding another fairly large dataset, then calling this method with the `checkDuplicate` parameter set to `true` can be CPU intensive.
 
 ---
 
@@ -109,7 +109,7 @@ selector.addOption([
 
 Remove an option or options.
 
-Options can be removed via their indexes or their values. To remove an option via it's index you must pass an `integer` and to remove an option via it's value you must pass a string. The `data` parameter can be either an `integer`, a `string` or an `array` of strings / integers.
+Options can be removed via their indexes or their values. To remove an option via it's index you must pass an `integer` and to remove an option via it's value you must pass a `string`. The `data` parameter can be either an `integer`, a `string` or an `array` of strings / integers.
 
 #### Examples
 
