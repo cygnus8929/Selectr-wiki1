@@ -137,7 +137,9 @@ Be careful passing numbers as the wrong option could be removed. If your values 
     <option value="3">Value 3</option>
     <option value="4">Value 4</option>
 </select>
+```
 
+```javascript
 // Removes the third option instead of the secons
 selector.remove(2);
 
