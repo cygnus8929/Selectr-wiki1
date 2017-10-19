@@ -54,14 +54,28 @@ selector.getValue(true, true); // "{"values":[{"value":"value-1","text":"Value 1
 ---
 
 ### search(`query`)
+### search(`query`, `anchor`)
 #### Usage: `single`, `multi`
 
-Search the available options for a string. The `query` parameter accepts a string and returns an `object` of matched options.
+Search the available options for a string.  Search matches against the display text for each option, _not_ option values.  The results are returned as an array of objects.
+
+The `query` parameter accepts a string to search for.  (If you leave the `query` argument empty, `search()` will use the value of the select box's search input.)
+
+The `anchor` parameter is boolean (true/false) and toggles searching from the beginning of display text (e.g., searching for "foo" would match "foobar" but not "barfoo").  The default behavior is to match anywhere in the string.
 
 ```javascript
-// search for the string 'foo'
+// search for the string 'foo' anywhere in option text
 selector.search('foo');
+
+// search for the string 'foo', but only when it is at the beginning of the option text
+selector.search('foo', true);
+
+// trigger a search using the value of the selector's search input (if any)
+selector.search();
 ```
+Update by @adrian-enspired
+
+---
 
 ---
 
