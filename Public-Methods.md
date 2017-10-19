@@ -53,7 +53,6 @@ selector.getValue(true, true); // "{"values":[{"value":"value-1","text":"Value 1
 
 ---
 
-### search(`query`)
 ### search(`query`, `anchor`)
 #### Usage: `single`, `multi`
 
@@ -73,7 +72,8 @@ selector.search('foo', true);
 // trigger a search using the value of the selector's search input (if any)
 selector.search();
 ```
-Update by @adrian-enspired
+
+Update by [@adrian-enspired](https://github.com/adrian-enspired)
 
 ---
 
