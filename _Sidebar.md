@@ -30,7 +30,7 @@
 ## Public Methods
 * [setValue](https://github.com/Mobius1/Selectr/wiki/Public-Methods#setvaluevalue)
 * [getValue](https://github.com/Mobius1/Selectr/wiki/Public-Methods#getvaluetoobject-tojson)
-* [search](https://github.com/Mobius1/Selectr/wiki/Public-Methods#searchquery)
+* [search](https://github.com/Mobius1/Selectr/wiki/Public-Methods#searchquery-anchor)
 * [add](https://github.com/Mobius1/Selectr/wiki/Public-Methods#adddata-duplicatecheck)
 * [remove](https://github.com/Mobius1/Selectr/wiki/Public-Methods#removedata)
 * [removeAll](https://github.com/Mobius1/Selectr/wiki/Public-Methods#removeall)
