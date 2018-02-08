@@ -88,7 +88,7 @@ The `duplicateCheck` argument is a boolean and when set to `true` will check to 
 
 ### Add a single option
 ```javascript
-selector.addOption({
+selector.add({
     value: "some-value",
     text: "Some Text"
 });
@@ -96,7 +96,7 @@ selector.addOption({
 
 ### Add multiple options
 ```javascript
-selector.addOption([
+selector.add([
     {
         value: "some-value-1",
         text: "Some Text 1"
