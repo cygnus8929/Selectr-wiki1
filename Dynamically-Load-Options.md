@@ -39,4 +39,4 @@ selector.on("selectr.init", function() {
 
 If you have `pagination` active then Selectr will load all options into it's cache, but will only insert the maximum amount required into the dropdown.
 
-Don't forget to check the wiki for the [`add`](https://github.com/Mobius1/Selectr/wiki/Public-Methods#addoptiondata) method's requirements.
+Don't forget to check the wiki for the [`add`](https://github.com/Mobius1/Selectr/wiki/Public-Methods#adddata-duplicatecheck) method's requirements.
