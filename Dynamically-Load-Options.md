@@ -21,7 +21,7 @@ function fetchData() {
       var data = JSON.parse(request.responseText);
 
       // Pass the object to the 'addOption' methed
-      selector.addOption(data);
+      selector.add(data);
     }
   };
 
