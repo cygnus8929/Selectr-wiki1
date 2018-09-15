@@ -2,6 +2,7 @@
 * [Install](https://github.com/Mobius1/Selectr/wiki/Getting-Started#install-with-bower)
 * [Manual](https://github.com/Mobius1/Selectr/wiki/Getting-Started#manual-installation)
 * [Initialise](https://github.com/Mobius1/Selectr/wiki/Getting-Started#initialisation)
+* [Events](https://github.com/Mobius1/Selectr/wiki/Events)
 
 ### Advanced Usage
 * [Dynamically Load Options](https://github.com/Mobius1/Selectr/wiki/Dynamically-Load-Options)
