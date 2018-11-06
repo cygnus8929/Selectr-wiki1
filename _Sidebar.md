@@ -27,6 +27,7 @@
 * [closeOnScroll](https://github.com/Mobius1/Selectr/wiki/Options#closeonscroll)
 * [sortSelected](https://github.com/Mobius1/Selectr/wiki/Options#sortselected)
 * [customClass](https://github.com/Mobius1/Selectr/wiki/Options#customclass)
+* [messages](https://github.com/Mobius1/Selectr/wiki/Options#messages)
 
 ## Public Methods
 * [setValue](https://github.com/Mobius1/Selectr/wiki/Public-Methods#setvaluevalue)
