@@ -386,6 +386,7 @@ new Selectr(mySelectBox, {
 
 ## messages
 #### Type: `{Object}`
+#### Added in `v2.4.6`
 
 
 Customise the default messages that are shown.
