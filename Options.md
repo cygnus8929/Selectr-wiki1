@@ -388,7 +388,7 @@ new Selectr(mySelectBox, {
 #### Type: `{Object}`
 
 
-Customise the default messages that are show.
+Customise the default messages that are shown.
 
 There are currently 3 messages that can be customised:
 * `noResults` - this is displayed when there are no search results
