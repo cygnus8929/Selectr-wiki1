@@ -381,3 +381,26 @@ new Selectr(mySelectBox, {
 	customClass: 'my-custom-class'
 });
 ```
+
+---
+
+## messagtes
+#### Type: `{BObject}`
+
+
+Customise the default messages that are show.
+
+There are currently 3 messages that can be customised:
+* `noResults` - this is displayed when there are no search results
+* `maxSelections` - this is displayed when the current `maxSelections` has been reached.
+* `tagDuplicate` - This is displayed when a tag is inputed that already exists.
+
+```javascript
+messages: {
+    noResults: "No results.",
+    maxSelections: "A maximum of {max} items can be selected.",
+    tagDuplicate: "That tag is already in use",
+}
+```
+
+---
