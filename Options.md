@@ -392,8 +392,10 @@ Customise the default messages that are show.
 
 There are currently 3 messages that can be customised:
 * `noResults` - this is displayed when there are no search results
-* `maxSelections` - this is displayed when the current `maxSelections` has been reached.
+* `maxSelections` - this is displayed when the current `maxSelections` has been reached. Use the `{max}` string to signify the `maxSelections` value in the message.
 * `tagDuplicate` - This is displayed when a tag is inputed that already exists.
+
+The default messages are shown below.
 
 ```javascript
 messages: {
