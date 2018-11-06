@@ -384,8 +384,8 @@ new Selectr(mySelectBox, {
 
 ---
 
-## messagtes
-#### Type: `{BObject}`
+## messages
+#### Type: `{Object}`
 
 
 Customise the default messages that are show.
