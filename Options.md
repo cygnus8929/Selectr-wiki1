@@ -405,5 +405,12 @@ messages: {
     tagDuplicate: "That tag is already in use",
 }
 ```
+---
+
+## resetSearch
+#### Type: `{Boolean}`
+#### Default: `false`
+
+When set to 'true', the search box will be reset when the user selects an item from the search results list via either the "Enter" key or mouse click.
 
 ---
